@@ -1,0 +1,42 @@
+h1{
+	color:black;
+	text-align: center;
+	font-family: san-seriff;
+	text-decoration:underline;
+}
+body{
+	background: linear-gradient(132deg,#ec5218,#1665c1);
+	background-size:400% 400%;
+	animation: project 30s ease infinite;
+	font-family: italic;
+	height: 400px;
+	}
+
+@keyframes project{
+	0%{background-position:0% 50%;}
+	50%{background-position:100% 50%;}
+	100%{background-position:0% 100%;}
+	}
+img{
+
+	padding-left: 300px;
+	width:200px;
+	height: 200px;
+}
+div{
+	float:right;
+	padding-right: 450px;
+}
+
+div.bills{
+	padding-left: 400px;
+	
+}
+p{
+	float:right;
+	padding-right:450px;
+}
+pre{
+	float:right;
+	padding-right:550px;
+}

@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<h1>CHOOSE YOUR COFFEE</h1>
+	<link rel="stylesheet" type="text/css" href="coffee.css">
+</head>
+<body>
+<marquee>"A coffe a day,keeps the stress away"</marquee>
+<form name="coffee" action="project.html" method="post">
+<script type="text/javascript" src="coffee.js"></script>
+<div class="details"><strong>Mocha</strong><br>
+Price: $7.00 each<br>
+Quantity : <input type="number" id="moch" name="mocha" min="0" onchange="updatecoffee()">
+</div>
+<img src="coffeemocha.jpg" alt="This is mocha"><br><br><br>
+<div class="details"><strong>Iced Coffee</strong><br>
+Price: $5.50 each<br>
+Quantity : <input type="number" id="icoffee" name="icedcoffee" min="0" onchange="updatecoffee()">
+</div>
+<img src="icedcoffee.jpg" alt="This is Iced Coffee"><br><br><br>
+<div class="details"><strong>Frapuccino</strong><br>
+Price: $6.00 each<br>
+Quantity : <input type="number" id="frap" name="frapuccino" min="0" onchange="updatecoffee()">
+</div>
+<img src="frapuccino.jpg" alt="This is frapuccino"><br><br><br>
+<div class="details"><strong>Caramel Macchiato</strong><br>
+Price: $7.50 each<br>
+Quantity : <input type="number" id="carmach" name="caramelmacchiato" min="0" onchange="updatecoffee()">
+</div>
+<img src="caramelmacchiato.jpg" alt="This is Caramel Macchiato"><br><br>
+<div class="bills">
+Subtotal  : <input type="text" id="subtotal" name="subtotal amount"><br>
+Tax       : <input type="text" id="tax" name="tax amount" value="0.06"><br>
+Total     : <input type="text" id="total" name="total amount">
+</div>
+<pre><input type="radio" name="payement" value="pay by cash"><strong>PAY BY CASH</strong>  <input type ="radio" name="card payement" value="pay by card"><strong>PAY BY CARD</strong>
+</pre>
+</form>
+</body>
+</html>
